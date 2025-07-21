@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            RAHMA ABDULLAHI
+        </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <style>
+            body{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                background-color:floralwhite;
+                color: #000;
+            }
+            header{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 20px 50px;
+                background-color: #fff;
+                border-bottom: 1px solid #ddd;
+            }
+            .logo{
+                font-size: 24px;
+                font-weight: bold;
+            }
+            nav ul{
+                display: flex;
+                gap:30px;
+
+            }
+            nav a{
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+/* animation*/
+                /* @keyframes*/
+                animation-name: card;
+                animation-timing-function: ease-in-out;
+                animation-duration: 2s;
+                animation-delay: 0ms;
+                animation-iteration-count: 2;
+
+                 /* box-shadow: 1px 1px 5px black; */
+               transition-duration: 1s ;
+               transition-delay: 1s;
+               transition-timing-function: ease-in;
+            }
+            .hero{
+                display: flex;
+                flex-wrap: nowrap;
+                align-items: center;
+                justify-content: center;
+                padding:50px ;
+            }
+            .image-container img{
+                width: 300px;
+                border-radius:10px ;
+                background-color:#007Bff ;
+
+            }
+            .content{
+                max-width:600px ;
+                margin-left: 50px;
+            }
+            .highlight{
+                background-color:00aaff ;
+                padding: 5px 10px;
+                color: white;
+                display: inline-block;
+            }
+            .blue{
+                color:#007Bff;
+            }
+            .content p{
+                margin: 20px 0;
+                line-height: 1.6;
+            }
+            .social-icons a{
+                margin-right:15px ;
+                color: black;
+                font-size: 20px;
+            }
+            p{
+                font-size: larger;
+                font-family:Arial, Helvetica, sans-serif;
+            }
+            .btn{
+               padding: 10px 20px; 
+               background-color: #007Bff;
+               color: #fff;
+               border-radius: 5px;
+               align-items:right;
+               /* box-shadow: 1px 1px 5px black; */
+               border-left: 10px solid black;
+               transition-duration: 1s ;
+               transition-delay: 1s;
+               transition-timing-function: ease-in;
+            }
+            .btn:hover{
+                background-color: darkred;
+                color: black;
+                border:2px solid darkred;
+                box-shadow: #000;
+
+
+            }
+            .highlight{
+                color:#007Bff;
+                /* animation*/
+                /* @keyframes*/
+                animation-name: bounceIn;
+                animation-timing-function: ease-in-out;
+                animation-duration: 2s;
+                animation-delay: 0ms;
+                animation-iteration-count: 2;
+
+                  /* box-shadow: 1px 1px 5px black; */
+               transition-duration: 1s ;
+               transition-delay: 1s;
+               transition-timing-function: ease-in;
+                
+            }
+            @keyframes bounceIn{
+                0%{
+                    color: deeppink;
+                    transform: scale(1.5);
+                }
+                50%{
+                    text-align: left;
+                    transform: scale(0);
+                }
+                100%{
+                    font-style: oblique;
+                    transform: scaleX(1.5);
+                    color: orangered;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="logo">R.A</div>
+            <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SKILLS</a></li>
+                <li><a href="#">ABOUT</a></li>
+                 <li><a href="#">CONTACT</a></li>
+            </ul
+            </nav>
+        </header>
+        
+        <section class="hero">
+            <div class="image-container">
+                <img src="WhatsApp Image 2025-07-05 at 9.18.17 PM.jpeg" alt="Rahma Abdullahi">
+            </div>
+            <div class="content">
+                <h1><span class="highlight">HI, I AM RAHMA ABDULLAHI</span></h1>
+                <h2>Frontend <span class="blue">Developer</span></h2>
+                <p>
+                    Hey there, My name is <strong>RAHMA ABDULLAHI</strong>. Welcome to my personal portfolio website. I've build this space to showcase my skills and share my passion for development and technology.Join me on a journey beyond coding,where we can explore the intersection of innovation and creativity, and discover new experiences and joys together.
+                </p>
+                
+                <div class="social-icons">
+   <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+<a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+<a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="dowload-section">
+                    <button class="btn">DOWNLOAD CV</button>
+                </div>
+        </section>
+    </body>
+</html>
